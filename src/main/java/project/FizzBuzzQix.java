@@ -2,7 +2,9 @@ package project;
 
 public class FizzBuzzQix {
     public String interpret(int numberToInterpret) {
-        if (numberToInterpret % 3 == 0 && (numberToInterpret % 5 == 0)){
+        if ((numberToInterpret % 3 == 0) && (numberToInterpret % 5 == 0) && (numberToInterpret % 7 == 0)){
+            return "FizzBuzzQix";
+        } else if ((numberToInterpret % 3 == 0) && (numberToInterpret % 5 == 0)){
             return "FizzBuzz";
         } else if (numberToInterpret == 3){
             return "Fizz";
