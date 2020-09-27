@@ -32,4 +32,11 @@ public class FizzBuzzQixTest {
         String spokenWord = underTest.interpret(7);
         assertThat(spokenWord).isEqualTo("Qix");
     }
+
+    @Test
+    public void fifteenShouldReturnFizzBuzz() {
+        FizzBuzzQix underTest = new FizzBuzzQix();
+        String spokenWord = underTest.interpret(15);
+        assertThat(spokenWord).isEqualTo("FizzBuzz");
+    }
 }
