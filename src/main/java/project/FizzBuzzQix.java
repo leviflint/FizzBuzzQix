@@ -6,6 +6,8 @@ public class FizzBuzzQix {
             return "Fizz";
         } else if (numberToInterpret == 5) {
             return "Buzz";
+        } else if (numberToInterpret == 7) {
+            return "Qix";
         }
         return "" + numberToInterpret;
     }
